@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import profileImage from "../assets/rajat_saini.png";
+import resumeFile from "../assets/RAJAT_Resume04.pdf";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -12,8 +14,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between h-20">
         <a href="#home" className="flex items-center gap-3 rounded-lg outline-none focus-visible:ring-2 focus-visible:ring-[#2DD4BF]">
           <img
-            src="/src/assets/rajat_saini.png"
-            alt="profile"
+            src={profileImage}
+            alt="Rajat Kumar Saini"
             className="w-11 h-11 rounded-full object-cover border border-[#2DD4BF]"
           />
           <div className="text-left">
@@ -21,7 +23,7 @@ const Navbar = () => {
               Rajat Kumar Saini
             </h1>
             <p className="text-xs text-gray-400 tracking-wider">
-            BACKEND & DEVOPS
+              NODE.JS BACKEND
             </p>
           </div>
         </a>
@@ -36,13 +38,13 @@ const Navbar = () => {
           <a href="#contact" className={navClass}>
             Contact
           </a>
-          <a 
-            href="/src/assets/RAJAT_Resume04.pdf"
+          <a
+            href={resumeFile}
             download
             type="button"
             className="bg-[#2DD4BF] hover:bg-[#14B8A6] text-black px-6 py-2 rounded-full font-semibold text-sm transition"
           >
-            Resume ↗
+            Resume
           </a>
         </div>
 
@@ -78,10 +80,13 @@ const Navbar = () => {
           </a>
 
           <a
+            href={resumeFile}
+            download
             type="button"
-            className="w-full bg-[#2DD4BF] text-black py-2 rounded-full font-semibold"
+            className="block text-center w-full bg-[#2DD4BF] text-black py-2 rounded-full font-semibold"
+            onClick={() => setOpen(false)}
           >
-            Resume ↗
+            Resume
           </a>
         </div>
       )}

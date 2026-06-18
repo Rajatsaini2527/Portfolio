@@ -2,6 +2,7 @@ import Work from "./Work";
 import ExperienceSection from "../components/ExperienceSection";
 import ContactSection from "../components/ContactSection";
 import WhatIDo from "../components/WhatIDo";
+import profileImage from "../assets/rajat_saini.png";
 
 const Home = () => {
   return (
@@ -31,14 +32,16 @@ const Home = () => {
 
             {/* Subtitle */}
             <p className="text-gray-400 text-lg max-w-md">
-              I build scalable backend systems & DevOps infrastructure that power modern
-              applications.
+              Node.js Backend Developer building scalable REST APIs, real-time
+              WebSocket systems, AI-integrated microservices, and production
+              platforms for modern products.
             </p>
 
             <p className="text-gray-500 text-sm">
-              Hire me, and I promise to break things only in staging...
+              2+ years shipping backend systems with Node.js, Express.js,
+              MongoDB, MySQL, AWS S3, RabbitMQ, Docker, and CI/CD.
               <br />
-              <span>most of the time.</span>
+              <span>Built systems supporting 20,000+ active users.</span>
             </p>
 
             {/* Buttons */}
@@ -69,8 +72,8 @@ const Home = () => {
               <div className="absolute inset-0 rounded-full border border-[#2DD4BF]/20 animate-pulse"></div>
 
               <img
-                src="/src/assets/rajat_saini.png"
-                alt="profile"
+                src={profileImage}
+                alt="Rajat Kumar Saini"
                 className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-[#2DD4BF] shadow-lg"
               />
             </div>

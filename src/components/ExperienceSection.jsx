@@ -1,39 +1,41 @@
 const roles = [
   {
-    title: "Web Application Developer",
+    title: "Backend Developer (Node.js)",
     company: "Aucourant Technologies Pvt. Ltd., Dehradun",
-    period: "Feb 2025 — Present",
+    period: "Feb 2025 - Present",
     summary:
-      "Developing scalable backend services and REST APIs using Node.js & Express. Integrated AWS S3, optimized databases, and implemented real-time systems using WebSockets.",
+      "Architecting production backend services with Node.js and Express.js, integrating Python/OpenCV AI microservices for real-time video analysis, building WebSocket event pipelines, implementing JWT/RBAC access control, and optimizing MySQL and MongoDB performance.",
   },
   {
-    title: "Web Application Developer",
+    title: "Node.js Backend Developer",
     company: "MYC India Education Pvt. Ltd., Mohali",
-    period: "Jan 2024 — Feb 2025",
+    period: "Jan 2024 - Feb 2025",
     summary:
-      "Built REST APIs, optimized MySQL databases, and contributed to scalable architecture while collaborating with cross-functional teams.",
+      "Built and maintained REST APIs with Node.js, Express.js, Sequelize ORM, and MySQL, designed normalized schemas, improved query performance with indexing, and contributed to modular service design, API versioning, and error-handling middleware.",
   },
   {
     title: "Software Developer Intern",
     company: "Jsimple Technosoft Pvt. Ltd., Noida",
-    period: "Jun 2022 — Dec 2022",
+    period: "Jun 2022 - Dec 2022",
     summary:
-      "Worked on ASP.NET MVC backend, created stored procedures, and optimized queries while assisting in debugging and testing.",
+      "Contributed to ASP.NET MVC applications, improved UI workflows, authored stored procedures and database views, and participated in debugging, testing, peer reviews, and sprint-based feature delivery.",
   },
 ];
 
 const techStack = {
-  Languages: ["JavaScript", "SQL", "HTML", "CSS"],
-  Backend: ["Node.js", "Express.js", "Laravel", "REST APIs", "WebSockets"],
-  Frontend: ["React.js", "Angular"],
-  Databases: ["MongoDB", "MySQL", "MS SQL"],
-  DevOps: ["AWS S3", "Docker", "CI/CD", "GitHub Actions"],
+  Languages: ["JavaScript (ES2022+)", "Python", "SQL", "HTML5", "CSS3"],
+  Backend: ["Node.js", "Express.js", "FastAPI", "REST APIs", "WebSockets", "JWT Auth", "RBAC"],
+  Frontend: ["React.js", "Angular", "Bootstrap", "Material UI"],
+  Databases: ["MongoDB", "MySQL", "MS SQL Server", "Sequelize ORM", "Query Optimization"],
+  "Messaging & Async": ["RabbitMQ", "Async Processing", "Event-driven Architecture"],
+  "Cloud & DevOps": ["AWS S3", "Docker", "GitHub Actions", "CI/CD", "Linux/WSL"],
+  "AI Integration": ["Python OpenCV", "Video Stream Processing", "AI Microservices", "Activity Detection"],
 };
 
 const ExperienceSection = () => {
   return (
     <section id="experience" className="scroll-mt-24 bg-[#0F172A] text-white py-20 border-t border-gray-800">
-     
+
       <div className="max-w-7xl mx-auto px-4 md:px-8">
 
         {/* Heading */}

@@ -1,3 +1,5 @@
+import resumeFile from "../assets/RAJAT_Resume04.pdf";
+
 const ContactSection = () => {
   return (
     <section
@@ -19,13 +21,14 @@ const ContactSection = () => {
           </p>
 
           <h2 className="text-4xl md:text-6xl font-bold leading-tight">
-            Let’s build <br />
-            something <span className="text-[#2DD4BF]">fast.</span>
+            Let's build <br />
+            something <span className="text-[#2DD4BF]">reliable.</span>
           </h2>
 
           <p className="text-gray-400 max-w-md">
-            Whether you're scaling backend systems, optimizing performance,
-            or building new products — I can help deliver reliable solutions.
+            Whether you need scalable APIs, real-time systems, cloud media
+            delivery, or AI-backed backend workflows, I can help turn product
+            requirements into production-ready software.
           </p>
         </div>
 
@@ -34,11 +37,11 @@ const ContactSection = () => {
 
           {/* Resume Button */}
           <a
-            href="/src/assets/RAJAT_Resume04.pdf"
+            href={resumeFile}
             download
             className="w-full inline-flex items-center justify-center gap-2 bg-[#2DD4BF] hover:bg-[#14B8A6] text-black px-6 py-4 rounded-full font-semibold transition shadow-[0_0_20px_#2DD4BF33]"
           >
-            ⬇ Download Resume
+            Download Resume
           </a>
 
           {/* Email */}
@@ -61,6 +64,7 @@ const ContactSection = () => {
             <a
               href="https://www.linkedin.com/in/rajat-kumar-saini-28024a238/"
               target="_blank"
+              rel="noreferrer"
               className="flex items-center justify-center gap-2 border border-gray-700 rounded-xl py-3 hover:border-[#2DD4BF] hover:text-[#2DD4BF] transition"
             >
               <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
@@ -75,18 +79,19 @@ const ContactSection = () => {
             <a
               href="https://github.com/Rajatsainiji"
               target="_blank"
+              rel="noreferrer"
               className="flex items-center justify-center gap-2 border border-gray-700 rounded-xl py-3 hover:border-[#2DD4BF] hover:text-[#2DD4BF] transition"
             >
               {/* GitHub SVG */}
               <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2C6.5 2 2 6.5 2 12a10 10 0 0 0 6.8 9.5c.5.1.7-.2.7-.5v-2c-2.8.6-3.4-1.2-3.4-1.2-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.3.9 1.3.9.8 1.3 2.2.9 2.7.7.1-.6.3-.9.5-1.1-2.2-.2-4.6-1.1-4.6-5a3.9 3.9 0 0 1 1-2.7c-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.8-4.6 5 .3.2.6.7.6 1.5v2.2c0 .3.2.6.7.5A10 10 0 0 0 22 12c0-5.5-4.5-10-10-10z"/>
+                <path d="M12 2C6.5 2 2 6.5 2 12a10 10 0 0 0 6.8 9.5c.5.1.7-.2.7-.5v-2c-2.8.6-3.4-1.2-3.4-1.2-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.3.9 1.3.9.8 1.3 2.2.9 2.7.7.1-.6.3-.9.5-1.1-2.2-.2-4.6-1.1-4.6-5a3.9 3.9 0 0 1 1-2.7c-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.8-4.6 5 .3.2.6.7.6 1.5v2.2c0 .3.2.6.7.5A10 10 0 0 0 22 12c0-5.5-4.5-10-10-10z" />
               </svg>
               GitHub
             </a>
 
             {/* Portfolio */}
             <a
-              href="#"
+              href="#home"
               className="flex items-center justify-center gap-2 border border-gray-700 rounded-xl py-3 hover:border-[#2DD4BF] hover:text-[#2DD4BF] transition"
             >
               {/* Globe SVG */}
