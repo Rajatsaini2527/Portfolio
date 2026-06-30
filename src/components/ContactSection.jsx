@@ -77,7 +77,7 @@ const ContactSection = () => {
 
             {/* GitHub */}
             <a
-              href="https://github.com/Rajatsainiji"
+              href="https://github.com/Rajatsaini2527"
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center gap-2 border border-gray-700 rounded-xl py-3 hover:border-[#2DD4BF] hover:text-[#2DD4BF] transition"
